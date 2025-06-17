@@ -20,5 +20,9 @@
   "dependencies": {
     "eslint": "^8.57.1",
     "needle": "^3.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.1",
+    "mocha": "^11.6.0"
   }
 }
