@@ -21,7 +21,6 @@ describe('fetchBreedDescription', () => {
   it('returns an error message for an invalid or non-existent breed', (done) => {
     fetchBreedDescription('xyz', (err, desc) => {
 
-
       const error1 = new Error("Invalid or non-existent breed");
 
       // we expect an Error object with a message of "Invalid or non-existent breed"

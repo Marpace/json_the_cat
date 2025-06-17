@@ -11,19 +11,7 @@ const fetchBreedDescription = (breedName, callback) => {
     } else description = body[0].description;
     callback(err, description);
   });
-
-  // needle("get", `https://api.thecatapi.com/v1/breeds/search?q=${breedName}`)
-  //   .then(response => {
   
-  //     if (response.body.length === 0) throw new Error("Breed not found");
-  //     console.log(response.body[0].description);
-  
-  //   })
-  //   .catch(err => {
-  
-  //     console.log(err);
-  
-  //   });
 };
 
 module.exports = {fetchBreedDescription};
